@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 61px;
+}
+
+nav .logo h2{
+    width: 111px;
+    font-size: 20px;
+    color: #1E0E62;
+}
+
+nav .menu ul{
+    margin-top: 2px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(21, 20, 57, 0.40);
+}
+
+nav .menu ul li:hover{
+    cursor: pointer;
+    color: #25DAC5;
+}
+nav .login{
+    margin-top: -5px;
+}
+.login .btn-1{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(21, 20, 57, 0.40);
+    border: none;
+    background-color: #fff;
+    padding: 7px 22px;
+    border-radius: 20px;
+}
+.login .btn-1:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(21, 20, 57, 0.40);
+}
+.login .btn-2{
+    font-size: 18px;
+    color: #fff;
+    background-color: #25DAC5;
+    padding: 7px 22px;
+    border: none;
+    border-radius: 20px;
+}
+.login .btn-2:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(21, 20, 57, 0.40);
+}
+
+main h1{
+    width: 770px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 86px; 
+    letter-spacing: -1px;
+    color:#1E0E62;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    letter-spacing: 1px;
+}
+main p{
+    width: 582px;
+    text-align: center !important;
+    margin-left: 150px;
+    color: rgba(21, 20, 57, 0.40);
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer button{
+    width: 300px;
+    padding: 9px 22px;
+    border: none;
+    border-radius: 20px;
+    background-color: #25DAC5;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: rgba(21, 20, 57, 0.40);
+}
+footer a{
+    text-decoration: none;
+    color: #25DAC5;
+    font-size: 18px;
+    margin-left: 400px;
+}
+footer a:hover{
+    color: rgba(21, 20, 57, 0.40);
+}
